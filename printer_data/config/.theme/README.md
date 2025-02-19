@@ -1,21 +1,35 @@
-# Dracula for [Mainsail](https://docs.mainsail.xyz/)
+# Mainsail Eryone Theme
+An Eryone theme for [Mainsail](https://docs.mainsail.xyz/)
 
-> A dark theme for [Mainsail](https://github.com/mainsail-crew/mainsail)
+![Screenshot](screenshot.jpg)
 
-![Screenshot](./screenshot.png)
+## Install Manually
+You need mainsaill already installed on your machine, open your browser and search your 3D printer IP.
 
-## Installation 
-```bash
-git clone https://github.com/steadyjaw/dracula-mainsail-theme.git ~/klipper_config/.theme
+In mainsail: go to settings -> machine -> add a folder called .theme
+
+Make sure to enable "Hidden files" under the gear icon 
+
+Now, inside .theme, add these files:
 ```
-## Update
+custom.css
+favicon-16x16.png
+favicon-32x32.png
+sidebar-background.svg
+sidebar-logo.svg
+```
+## Install via Git
+```bash
+git clone https://github.com/dapostol73/MainsailEryoneTheme.git ~/klipper_config/.theme
+```
+## Update via Git
 ```bash
 git -C ~/klipper_config/.theme pull
 ```
 
 ## License
-[MIT License](./LICENSE)
+[GNU LICENSE](./LICENSE)
 
 ## More
 * Find more themes at [Mainsail Docs - Theming](https://docs.mainsail.xyz/theming)
-* Install Mainsail Themes with [KIAUH](https://github.com/th33xitus/kiauh) 
+* How to Install Mainsail Themes [YouTube](https://youtu.be/kbSfLQtl4tA) 
